@@ -1,0 +1,225 @@
+*{/* ОБОВЯЗКОВО НА КОЖНОМУ ПРОЕКТІ */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #000;
+}
+.card {
+    width: 500px;
+    height: 600px;
+    margin: 50px auto;
+    border: 14px inset #ee1919;
+    border-radius: 20px;
+    background-color: #55ee19;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.card-title {
+    text-align: center;
+    font-size: 55px;
+    color: blue;
+    text-transform: uppercase;
+    transition: 0.6s;
+}
+.card-info {
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+    transition: 0.6s;
+}
+.card-image {
+    margin-top: 50px;
+    width: 300px;
+    transition: 0.6s;
+}
+.card-box {
+    display: flex;/* запуск флекс і всі елементи на одній лінії */
+    justify-content: space-between;/* рухає елементи ті які на лінії  */
+    align-items: center;/* рухає лінію */
+    /* flex-direction: column;-перетворяє в колонку як захочеш */
+    height: 200px;
+    width: 400px;
+    transition: 0.6s;
+}
+.box-text {
+    font-size: 50px;
+    color: #eeb519;
+    transition: 0.6s;
+}
+.box-image {
+    width: 60px;
+    transition: 0.6s;
+}
+.box-price {
+    font-size: 50px;
+    color: #ee1919;
+    transition: 0.4s;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.box-price:hover{
+    color: blueviolet;
+}
+.card:hover{
+    background-color: rgb(255, 106, 0);
+    border: 10px inset #fc0695;
+}
+.card:hover .card-title{
+    color: rgb(115, 255, 0);
+    padding: 10px;
+}
+.card:hover .card-info{
+    color: rgb(139, 0, 120);
+}
+.card:hover .card-image{
+    border-radius: 50%;
+    padding: 10px;
+}
+.card:hover .card-box{
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+.card:hover .box-price{
+    color: forestgreen;
+}
+.card:hover .box-text{
+    color: rgb(5, 247, 255);
+}
+.card:hover .box-image{
+    width: 80px;
+    border-radius: 10px;
+}
+
+
+
+
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.price {
+    width: 400px;
+    height: 550px;
+    border: 5px dashed #f7f305;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.price-img {
+    height: 200px;
+    margin: 10px 85px;
+    padding: 5px;
+}
+.price-text {
+    text-align: center;
+    padding: 5px;
+    font-weight: bolder;
+}
+.price-many {
+    margin-left: 220px;
+    padding: 5px;
+    color: #ee1919;
+    font-weight: bold;
+}
+.price-shop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.shop-img {
+    width: 100px;
+    height: 100px;
+}
+.shop-link {
+    font-size: 20px;
+    padding: 2px;
+}
+.shop-text {
+    font-weight: bolder;
+}
+.end-card{
+    background-color: #2df506;
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.price:hover{
+    transform: translateY(-20px);
+}
+.price1{
+    width: 400px;
+    height: 550px;
+    border: 5px dashed #e305f7;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.price-img1 {
+    height: 200px;
+    margin: 10px 85px;
+    padding: 5px;
+}
+.price-text1 {
+    text-align: center;
+    padding: 5px;
+    font-weight: bolder;
+}
+.price-many1 {
+    margin-left: 220px;
+    padding: 5px;
+    color: #ee1919;
+    font-weight: bold;
+}
+.price-shop1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.shop-img1 {
+    width: 100px;
+    height: 100px;
+}
+
+.shop-link1 {
+    font-size: 20px;
+    padding: 2px;
+}
+.shop-text1 {
+    font-weight: bolder;
+}
+.end-card1 {
+    background-color: #ee1919;
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.price1:hover{
+    transform: translateY(-20px);
+}
+
+
+
+
+
+
+
+
